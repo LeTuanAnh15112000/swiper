@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Swiper demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <!-- Splitting -->
+    <link rel="stylesheet" href="https://unpkg.com/splitting/dist/splitting.css" />
+    <link rel="stylesheet" href="https://unpkg.com/splitting/dist/splitting-cells.css" />
+    <script src="https://unpkg.com/splitting/dist/splitting.min.js"></script>
+</head>
+
+<body>
+    <!-- Swiper -->
+    <!-- Slider main container -->
+    <div class="swiper-container">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide slide-1">
+                <div class="container">
+                    <div class="slider-container">
+                        <h4 class="slider-sub-title">Learn To Face Difficulty</h4>
+                        <div class="test"><span aria-label="Enthusiasm" data-splitting>Dept. of Dept. of Dept. of Dept. of Enthusiasm</span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide slide-2">
+                <div class="container">
+                    <div class="slider-container">
+                        <h4 class="slider-sub-title">Learn To Face Difficulty slider-2</h4>
+                        <div class="test"><span aria-label="Enthusiasm" data-splitting>Dept. of Dept. of Dept. of Dept. of Enthusiasm</span></div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide slide-3">
+                <div class="container">
+                    <div class="slider-container">
+                        <h4 class="slider-sub-title animated">Learn To Face Difficulty slider-3</h4>
+                        <div class="test"><span aria-label="Enthusiasm" data-splitting>Dept. of Dept. of Dept. of Dept. of Enthusiasm</span></div>
+
+                    </div>
+                </div>
+            </div>
+            ...
+        </div>
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </div>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <!-- Splitting -->
+    <!-- Initialize Swiper -->
+    <script src="./jacascript.js"></script>
+    <script> Splitting(); </script>
+</body>
+
+</html>
